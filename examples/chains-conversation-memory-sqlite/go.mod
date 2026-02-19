@@ -1,10 +1,10 @@
-module github.com/vxcontrol/langchaingo/examples/chains-conversation-memory-sqlite
+module github.com/jaysteelmind/langchaingo/examples/chains-conversation-memory-sqlite
 
 go 1.24.0
 
 require (
 	github.com/mattn/go-sqlite3 v1.14.28
-	github.com/vxcontrol/langchaingo v0.1.13-update.0
+	github.com/jaysteelmind/langchaingo v0.1.13-update.0
 )
 
 require (
@@ -37,4 +37,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

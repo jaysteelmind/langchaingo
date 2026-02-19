@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/agents"
-	"github.com/vxcontrol/langchaingo/chains"
-	"github.com/vxcontrol/langchaingo/internal/httprr"
-	"github.com/vxcontrol/langchaingo/llms/openai"
-	"github.com/vxcontrol/langchaingo/prompts"
-	"github.com/vxcontrol/langchaingo/tools"
+	"github.com/jaysteelmind/langchaingo/agents"
+	"github.com/jaysteelmind/langchaingo/chains"
+	"github.com/jaysteelmind/langchaingo/internal/httprr"
+	"github.com/jaysteelmind/langchaingo/llms/openai"
+	"github.com/jaysteelmind/langchaingo/prompts"
+	"github.com/jaysteelmind/langchaingo/tools"
 
 	"github.com/stretchr/testify/require"
 )

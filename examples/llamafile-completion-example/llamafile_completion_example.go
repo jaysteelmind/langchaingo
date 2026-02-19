@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/llamafile"
-	"github.com/vxcontrol/langchaingo/llms/streaming"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/llamafile"
+	"github.com/jaysteelmind/langchaingo/llms/streaming"
 )
 
 func main() {

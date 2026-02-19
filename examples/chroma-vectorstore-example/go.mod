@@ -1,11 +1,11 @@
-module github.com/vxcontrol/langchaingo/examples/chroma-vectorstore-example
+module github.com/jaysteelmind/langchaingo/examples/chroma-vectorstore-example
 
 go 1.24.0
 
 require (
 	github.com/amikos-tech/chroma-go v0.2.3
 	github.com/google/uuid v1.6.0
-	github.com/vxcontrol/langchaingo v0.1.13-update.0
+	github.com/jaysteelmind/langchaingo v0.1.13-update.0
 )
 
 require (
@@ -17,4 +17,4 @@ require (
 	github.com/yalue/onnxruntime_go v1.19.0 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

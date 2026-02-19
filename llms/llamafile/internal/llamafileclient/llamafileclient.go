@@ -14,7 +14,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/vxcontrol/langchaingo/httputil"
+	"github.com/jaysteelmind/langchaingo/httputil"
 )
 
 const maxBufferSize = 512 * 1000

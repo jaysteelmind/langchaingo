@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vxcontrol/langchaingo/chains"
-	"github.com/vxcontrol/langchaingo/llms/openai"
+	"github.com/jaysteelmind/langchaingo/chains"
+	"github.com/jaysteelmind/langchaingo/llms/openai"
 
-	zepLangchainMemory "github.com/vxcontrol/langchaingo/memory/zep"
+	zepLangchainMemory "github.com/jaysteelmind/langchaingo/memory/zep"
 
 	"github.com/getzep/zep-go"
 	zepClient "github.com/getzep/zep-go/client"

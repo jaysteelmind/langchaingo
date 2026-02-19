@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/anthropic"
-	"github.com/vxcontrol/langchaingo/llms/googleai"
-	"github.com/vxcontrol/langchaingo/llms/ollama"
-	"github.com/vxcontrol/langchaingo/llms/openai"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/anthropic"
+	"github.com/jaysteelmind/langchaingo/llms/googleai"
+	"github.com/jaysteelmind/langchaingo/llms/ollama"
+	"github.com/jaysteelmind/langchaingo/llms/openai"
 )
 
 var flagBackend = flag.String("backend", "openai", "backend to use")

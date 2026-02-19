@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/embeddings/bedrock"
-	"github.com/vxcontrol/langchaingo/httputil"
-	"github.com/vxcontrol/langchaingo/internal/httprr"
+	"github.com/jaysteelmind/langchaingo/embeddings/bedrock"
+	"github.com/jaysteelmind/langchaingo/httputil"
+	"github.com/jaysteelmind/langchaingo/internal/httprr"
 
 	"github.com/stretchr/testify/require"
 )

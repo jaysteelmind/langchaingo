@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"maps"
 
-	"github.com/vxcontrol/langchaingo/embeddings"
-	"github.com/vxcontrol/langchaingo/schema"
-	"github.com/vxcontrol/langchaingo/vectorstores"
+	"github.com/jaysteelmind/langchaingo/embeddings"
+	"github.com/jaysteelmind/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/vectorstores"
 
 	chromago "github.com/amikos-tech/chroma-go"
 	chromatypes "github.com/amikos-tech/chroma-go/types"

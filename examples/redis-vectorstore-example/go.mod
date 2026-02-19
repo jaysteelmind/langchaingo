@@ -1,8 +1,8 @@
-module github.com/vxcontrol/langchaingo/examples/redis-vectorstore-example
+module github.com/jaysteelmind/langchaingo/examples/redis-vectorstore-example
 
 go 1.24.0
 
-require github.com/vxcontrol/langchaingo v0.1.13-update.0
+require github.com/jaysteelmind/langchaingo v0.1.13-update.0
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
@@ -38,4 +38,4 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

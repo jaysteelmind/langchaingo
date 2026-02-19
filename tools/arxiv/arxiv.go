@@ -4,13 +4,13 @@ import (
 	"context"
 	"errors"
 
-	"github.com/vxcontrol/langchaingo/callbacks"
-	"github.com/vxcontrol/langchaingo/tools"
-	"github.com/vxcontrol/langchaingo/tools/arxiv/internal"
+	"github.com/jaysteelmind/langchaingo/callbacks"
+	"github.com/jaysteelmind/langchaingo/tools"
+	"github.com/jaysteelmind/langchaingo/tools/arxiv/internal"
 )
 
 // DefaultUserAgent defines a default value for user-agent header.
-const DefaultUserAgent = "github.com/vxcontrol/langchaingo/tools/arxiv"
+const DefaultUserAgent = "github.com/jaysteelmind/langchaingo/tools/arxiv"
 
 // Tool defines a tool implementation for the arXiv Search.
 type Tool struct {

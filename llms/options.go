@@ -1,6 +1,6 @@
 package llms
 
-import "github.com/vxcontrol/langchaingo/llms/streaming"
+import "github.com/jaysteelmind/langchaingo/llms/streaming"
 
 // CallOption is a function that configures a CallOptions.
 type CallOption func(*CallOptions)

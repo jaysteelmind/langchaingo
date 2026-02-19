@@ -3,7 +3,7 @@ package cohere
 import (
 	"strings"
 
-	"github.com/vxcontrol/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms"
 )
 
 // errorMapping represents a mapping from error patterns to error codes.

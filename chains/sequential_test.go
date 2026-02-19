@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/memory"
-	"github.com/vxcontrol/langchaingo/prompts"
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/memory"
+	"github.com/jaysteelmind/langchaingo/prompts"
+	"github.com/jaysteelmind/langchaingo/schema"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -1,8 +1,8 @@
-module github.com/vxcontrol/langchaingo/examples/zapier-llm-example
+module github.com/jaysteelmind/langchaingo/examples/zapier-llm-example
 
 go 1.24.0
 
-require github.com/vxcontrol/langchaingo v0.1.13-update.0
+require github.com/jaysteelmind/langchaingo v0.1.13-update.0
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
@@ -34,4 +34,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

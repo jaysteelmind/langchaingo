@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/cloudflare/internal/cloudflareclient"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/cloudflare/internal/cloudflareclient"
 
 	"github.com/stretchr/testify/assert"
 )

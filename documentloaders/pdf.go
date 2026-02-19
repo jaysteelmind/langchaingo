@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/vxcontrol/langchaingo/schema"
-	"github.com/vxcontrol/langchaingo/textsplitter"
+	"github.com/jaysteelmind/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/textsplitter"
 
 	"github.com/ledongthuc/pdf"
 )

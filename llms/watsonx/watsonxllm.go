@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/vxcontrol/langchaingo/callbacks"
-	"github.com/vxcontrol/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/callbacks"
+	"github.com/jaysteelmind/langchaingo/llms"
 
 	wx "github.com/IBM/watsonx-go/pkg/models"
 )

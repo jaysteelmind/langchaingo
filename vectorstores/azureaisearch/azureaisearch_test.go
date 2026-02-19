@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vxcontrol/langchaingo/chains"
-	"github.com/vxcontrol/langchaingo/embeddings"
-	"github.com/vxcontrol/langchaingo/llms/openai"
-	"github.com/vxcontrol/langchaingo/schema"
-	"github.com/vxcontrol/langchaingo/vectorstores"
-	"github.com/vxcontrol/langchaingo/vectorstores/azureaisearch"
+	"github.com/jaysteelmind/langchaingo/chains"
+	"github.com/jaysteelmind/langchaingo/embeddings"
+	"github.com/jaysteelmind/langchaingo/llms/openai"
+	"github.com/jaysteelmind/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/vectorstores"
+	"github.com/jaysteelmind/langchaingo/vectorstores/azureaisearch"
 
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"

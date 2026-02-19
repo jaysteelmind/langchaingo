@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms"
 
 	"cloud.google.com/go/vertexai/genai"
 )

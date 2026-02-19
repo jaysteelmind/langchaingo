@@ -6,8 +6,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/vxcontrol/langchaingo/callbacks"
-	"github.com/vxcontrol/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/callbacks"
+	"github.com/jaysteelmind/langchaingo/llms"
 
 	"google.golang.org/genai"
 )

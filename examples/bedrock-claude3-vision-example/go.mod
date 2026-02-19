@@ -1,8 +1,8 @@
-module github.com/vxcontrol/langchaingo/examples/bedrock-claude3-vision-example
+module github.com/jaysteelmind/langchaingo/examples/bedrock-claude3-vision-example
 
 go 1.24.0
 
-require github.com/vxcontrol/langchaingo v0.1.13-update.0
+require github.com/jaysteelmind/langchaingo v0.1.13-update.0
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.36.3 // indirect
@@ -25,4 +25,4 @@ require (
 	github.com/pkoukk/tiktoken-go v0.1.6 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

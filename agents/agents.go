@@ -3,8 +3,8 @@ package agents
 import (
 	"context"
 
-	"github.com/vxcontrol/langchaingo/schema"
-	"github.com/vxcontrol/langchaingo/tools"
+	"github.com/jaysteelmind/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/tools"
 )
 
 // Agent is the interface all agents must implement.

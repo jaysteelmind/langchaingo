@@ -6,10 +6,10 @@ import (
 	"log"
 	"strings"
 
-	"github.com/vxcontrol/langchaingo/chains"
-	"github.com/vxcontrol/langchaingo/documentloaders"
-	"github.com/vxcontrol/langchaingo/llms/googleai/vertex"
-	"github.com/vxcontrol/langchaingo/textsplitter"
+	"github.com/jaysteelmind/langchaingo/chains"
+	"github.com/jaysteelmind/langchaingo/documentloaders"
+	"github.com/jaysteelmind/langchaingo/llms/googleai/vertex"
+	"github.com/jaysteelmind/langchaingo/textsplitter"
 )
 
 func main() {

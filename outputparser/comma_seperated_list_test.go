@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/outputparser"
+	"github.com/jaysteelmind/langchaingo/outputparser"
 )
 
 func TestCommaSeparatedList(t *testing.T) {

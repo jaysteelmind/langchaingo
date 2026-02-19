@@ -1,9 +1,9 @@
-module github.com/vxcontrol/langchaingo/examples/mongovector-vectorstore-example
+module github.com/jaysteelmind/langchaingo/examples/mongovector-vectorstore-example
 
 go 1.24.0
 
 require (
-	github.com/vxcontrol/langchaingo v0.1.13-update.0
+	github.com/jaysteelmind/langchaingo v0.1.13-update.0
 	go.mongodb.org/mongo-driver/v2 v2.2.0
 )
 
@@ -22,4 +22,4 @@ require (
 	golang.org/x/text v0.26.0 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vxcontrol/langchaingo/tools"
+	"github.com/jaysteelmind/langchaingo/tools"
 
 	"github.com/gocolly/colly/v2"
 )

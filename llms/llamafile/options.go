@@ -1,6 +1,6 @@
 package llamafile
 
-import "github.com/vxcontrol/langchaingo/llms/llamafile/internal/llamafileclient"
+import "github.com/jaysteelmind/langchaingo/llms/llamafile/internal/llamafileclient"
 
 type Option func(*llamafileclient.GenerationSettings)
 

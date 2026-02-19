@@ -3,7 +3,7 @@ package agents
 import (
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/schema"
 
 	"github.com/stretchr/testify/require"
 )

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/schema"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
