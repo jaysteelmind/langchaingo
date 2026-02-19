@@ -1,10 +1,10 @@
-module github.com/vxcontrol/langchaingo/examples/huggingface-milvus-vectorstore-example
+module github.com/jaysteelmind/langchaingo/examples/huggingface-milvus-vectorstore-example
 
 go 1.24.1
 
 require (
 	github.com/milvus-io/milvus-sdk-go/v2 v2.4.0
-	github.com/vxcontrol/langchaingo v0.1.14-update.1
+	github.com/jaysteelmind/langchaingo v0.1.14-update.1
 )
 
 require (
@@ -34,4 +34,4 @@ require (
 	google.golang.org/protobuf v1.36.6 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

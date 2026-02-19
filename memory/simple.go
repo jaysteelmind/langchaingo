@@ -3,7 +3,7 @@ package memory
 import (
 	"context"
 
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/schema"
 )
 
 // Simple is a class that implement the memory interface, but does nothing.

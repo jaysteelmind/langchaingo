@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vxcontrol/langchaingo/llms/maritaca"
+	"github.com/jaysteelmind/langchaingo/llms/maritaca"
 )
 
 func main() {

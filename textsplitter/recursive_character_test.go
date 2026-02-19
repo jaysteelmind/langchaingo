@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/schema"
 
 	"github.com/pkoukk/tiktoken-go"
 	"github.com/stretchr/testify/assert"

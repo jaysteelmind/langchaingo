@@ -8,10 +8,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/vxcontrol/langchaingo/chains"
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/openai"
-	"github.com/vxcontrol/langchaingo/memory"
+	"github.com/jaysteelmind/langchaingo/chains"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/openai"
+	"github.com/jaysteelmind/langchaingo/memory"
 )
 
 func main() {

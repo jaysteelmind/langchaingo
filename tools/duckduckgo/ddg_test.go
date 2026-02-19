@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/internal/httprr"
+	"github.com/jaysteelmind/langchaingo/internal/httprr"
 
 	"github.com/stretchr/testify/require"
 )

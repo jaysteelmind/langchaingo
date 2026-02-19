@@ -4,8 +4,8 @@ import (
 	"errors"
 	"os"
 
-	"github.com/vxcontrol/langchaingo/httputil"
-	"github.com/vxcontrol/langchaingo/llms/openai/internal/openaiclient"
+	"github.com/jaysteelmind/langchaingo/httputil"
+	"github.com/jaysteelmind/langchaingo/llms/openai/internal/openaiclient"
 )
 
 var (

@@ -1,7 +1,7 @@
 package huggingface
 
 import (
-	"github.com/vxcontrol/langchaingo/llms/huggingface"
+	"github.com/jaysteelmind/langchaingo/llms/huggingface"
 )
 
 const (

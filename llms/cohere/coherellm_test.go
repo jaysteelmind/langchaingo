@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/internal/httprr"
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/cohere/internal/cohereclient"
-	"github.com/vxcontrol/langchaingo/llms/streaming"
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/internal/httprr"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/cohere/internal/cohereclient"
+	"github.com/jaysteelmind/langchaingo/llms/streaming"
+	"github.com/jaysteelmind/langchaingo/schema"
 )
 
 // newClientWithHTTPClient creates a cohere client with a custom HTTP client for testing

@@ -8,12 +8,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/embeddings"
-	"github.com/vxcontrol/langchaingo/internal/httprr"
-	"github.com/vxcontrol/langchaingo/llms/openai"
-	"github.com/vxcontrol/langchaingo/schema"
-	"github.com/vxcontrol/langchaingo/util/alloydbutil"
-	"github.com/vxcontrol/langchaingo/vectorstores/alloydb"
+	"github.com/jaysteelmind/langchaingo/embeddings"
+	"github.com/jaysteelmind/langchaingo/internal/httprr"
+	"github.com/jaysteelmind/langchaingo/llms/openai"
+	"github.com/jaysteelmind/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/util/alloydbutil"
+	"github.com/jaysteelmind/langchaingo/vectorstores/alloydb"
 
 	"github.com/stretchr/testify/require"
 )

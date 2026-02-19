@@ -1,8 +1,8 @@
-module github.com/vxcontrol/langchaingo/examples/bedrock-provider-example
+module github.com/jaysteelmind/langchaingo/examples/bedrock-provider-example
 
 go 1.24.1
 
-require github.com/vxcontrol/langchaingo v0.1.14-update.1
+require github.com/jaysteelmind/langchaingo v0.1.14-update.1
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.36.5 // indirect
@@ -25,4 +25,4 @@ require (
 	github.com/pkoukk/tiktoken-go v0.1.8 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

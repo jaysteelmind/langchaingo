@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/internal/httprr"
+	"github.com/jaysteelmind/langchaingo/internal/httprr"
 
 	"github.com/stretchr/testify/require"
 )
 
-const _userAgent = "langchaingo test (https://github.com/vxcontrol/langchaingo)"
+const _userAgent = "langchaingo test (https://github.com/jaysteelmind/langchaingo)"
 
 func TestWikipedia(t *testing.T) {
 	ctx := t.Context()

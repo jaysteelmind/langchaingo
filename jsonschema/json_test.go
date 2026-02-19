@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/jsonschema"
+	"github.com/jaysteelmind/langchaingo/jsonschema"
 )
 
 func TestDefinition_MarshalJSON(t *testing.T) { //nolint:funlen

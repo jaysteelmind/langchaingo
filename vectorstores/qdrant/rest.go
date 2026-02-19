@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/vxcontrol/langchaingo/httputil"
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/httputil"
+	"github.com/jaysteelmind/langchaingo/schema"
 
 	"github.com/google/uuid"
 )

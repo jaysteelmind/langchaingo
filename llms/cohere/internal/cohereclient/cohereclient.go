@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/vxcontrol/langchaingo/httputil"
+	"github.com/jaysteelmind/langchaingo/httputil"
 
 	"github.com/cohere-ai/tokenizer"
 )

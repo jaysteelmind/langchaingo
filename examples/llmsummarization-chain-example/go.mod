@@ -1,8 +1,8 @@
-module github.com/vxcontrol/langchaingo/examples/llmsummarization-chain-example
+module github.com/jaysteelmind/langchaingo/examples/llmsummarization-chain-example
 
 go 1.24.1
 
-require github.com/vxcontrol/langchaingo v0.1.14-update.1
+require github.com/jaysteelmind/langchaingo v0.1.14-update.1
 
 require (
 	cloud.google.com/go v0.121.0 // indirect
@@ -87,4 +87,4 @@ require (
 	nhooyr.io/websocket v1.8.7 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

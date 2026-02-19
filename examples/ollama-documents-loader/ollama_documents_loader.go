@@ -6,10 +6,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/vxcontrol/langchaingo/chains"
-	"github.com/vxcontrol/langchaingo/documentloaders"
-	"github.com/vxcontrol/langchaingo/llms/ollama"
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/chains"
+	"github.com/jaysteelmind/langchaingo/documentloaders"
+	"github.com/jaysteelmind/langchaingo/llms/ollama"
+	"github.com/jaysteelmind/langchaingo/schema"
 )
 
 func main() {

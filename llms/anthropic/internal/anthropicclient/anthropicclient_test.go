@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/internal/httprr"
-	"github.com/vxcontrol/langchaingo/llms/streaming"
+	"github.com/jaysteelmind/langchaingo/internal/httprr"
+	"github.com/jaysteelmind/langchaingo/llms/streaming"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

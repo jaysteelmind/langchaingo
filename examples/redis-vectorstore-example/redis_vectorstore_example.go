@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/vxcontrol/langchaingo/chains"
-	"github.com/vxcontrol/langchaingo/embeddings"
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/ollama"
-	"github.com/vxcontrol/langchaingo/schema"
-	"github.com/vxcontrol/langchaingo/vectorstores"
-	"github.com/vxcontrol/langchaingo/vectorstores/redisvector"
+	"github.com/jaysteelmind/langchaingo/chains"
+	"github.com/jaysteelmind/langchaingo/embeddings"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/ollama"
+	"github.com/jaysteelmind/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/vectorstores"
+	"github.com/jaysteelmind/langchaingo/vectorstores/redisvector"
 )
 
 const (

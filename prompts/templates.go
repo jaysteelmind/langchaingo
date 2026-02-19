@@ -40,8 +40,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/vxcontrol/langchaingo/prompts/internal/fstring"
-	sanitization "github.com/vxcontrol/langchaingo/prompts/internal/sanitization"
+	"github.com/jaysteelmind/langchaingo/prompts/internal/fstring"
+	sanitization "github.com/jaysteelmind/langchaingo/prompts/internal/sanitization"
 
 	"github.com/Masterminds/sprig/v3"
 )

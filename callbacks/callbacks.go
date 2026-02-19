@@ -3,9 +3,9 @@ package callbacks
 import (
 	"context"
 
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/streaming"
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/streaming"
+	"github.com/jaysteelmind/langchaingo/schema"
 )
 
 // Handler is the interface that allows for hooking into specific parts of an

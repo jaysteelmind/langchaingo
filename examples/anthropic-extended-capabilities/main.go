@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/anthropic"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/anthropic"
 )
 
 func main() {

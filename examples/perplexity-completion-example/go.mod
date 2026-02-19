@@ -1,10 +1,10 @@
-module github.com/vxcontrol/langchaingo/examples/perplexity-completion-example
+module github.com/jaysteelmind/langchaingo/examples/perplexity-completion-example
 
 go 1.24.1
 
 require (
 	github.com/joho/godotenv v1.5.1
-	github.com/vxcontrol/langchaingo v0.1.14-update.1
+	github.com/jaysteelmind/langchaingo v0.1.14-update.1
 )
 
 require (
@@ -13,4 +13,4 @@ require (
 	github.com/pkoukk/tiktoken-go v0.1.8 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/vxcontrol/langchaingo/llms/googleai/internal/palmclient"
+	"github.com/jaysteelmind/langchaingo/llms/googleai/internal/palmclient"
 )
 
 // CreateEmbedding creates embeddings from texts.

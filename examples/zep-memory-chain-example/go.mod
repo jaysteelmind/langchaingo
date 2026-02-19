@@ -1,10 +1,10 @@
-module github.com/vxcontrol/langchaingo/examples/zep-memory-chain-example
+module github.com/jaysteelmind/langchaingo/examples/zep-memory-chain-example
 
 go 1.24.1
 
 require (
 	github.com/getzep/zep-go v1.0.4
-	github.com/vxcontrol/langchaingo v0.1.14-update.1
+	github.com/jaysteelmind/langchaingo v0.1.14-update.1
 )
 
 require (
@@ -37,4 +37,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

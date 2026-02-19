@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms"
 
 	"github.com/getzep/zep-go"
 	zepClient "github.com/getzep/zep-go/client"

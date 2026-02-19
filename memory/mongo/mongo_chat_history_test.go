@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/testcontainers/testcontainers-go/wait"
-	"github.com/vxcontrol/langchaingo/internal/testutil/testctr"
-	"github.com/vxcontrol/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/internal/testutil/testctr"
+	"github.com/jaysteelmind/langchaingo/llms"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

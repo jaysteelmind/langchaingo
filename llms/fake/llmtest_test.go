@@ -3,7 +3,7 @@ package fake
 import (
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/testing/llmtest"
+	"github.com/jaysteelmind/langchaingo/testing/llmtest"
 )
 
 func TestLLM(t *testing.T) {

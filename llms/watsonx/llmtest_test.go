@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/testing/llmtest"
+	"github.com/jaysteelmind/langchaingo/testing/llmtest"
 
 	wx "github.com/IBM/watsonx-go/pkg/models"
 )

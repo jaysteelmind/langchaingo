@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/llms/streaming"
+	"github.com/jaysteelmind/langchaingo/llms/streaming"
 )
 
 func TestParseStreamingChatResponse_SSEComments(t *testing.T) {

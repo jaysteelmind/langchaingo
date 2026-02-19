@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/googleai"
-	"github.com/vxcontrol/langchaingo/llms/reasoning"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/googleai"
+	"github.com/jaysteelmind/langchaingo/llms/reasoning"
 )
 
 func main() {

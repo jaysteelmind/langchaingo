@@ -79,14 +79,14 @@ func updateExamples(newVersion string, dryRun bool) error {
 		versionRe := regexp.MustCompile(`github\.com/vxcontrol/langchaingo v[0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9.]+)?`)
 		if versionRe.MatchString(updated) {
 			oldVersion := versionRe.FindString(updated)
-			updated = versionRe.ReplaceAllString(updated, "github.com/vxcontrol/langchaingo "+newVersion)
-			if *verbose && oldVersion != "github.com/vxcontrol/langchaingo "+newVersion {
-				fmt.Printf("  Version: %s → %s\n", strings.TrimPrefix(oldVersion, "github.com/vxcontrol/langchaingo "), newVersion)
+			updated = versionRe.ReplaceAllString(updated, "github.com/jaysteelmind/langchaingo "+newVersion)
+			if *verbose && oldVersion != "github.com/jaysteelmind/langchaingo "+newVersion {
+				fmt.Printf("  Version: %s → %s\n", strings.TrimPrefix(oldVersion, "github.com/jaysteelmind/langchaingo "), newVersion)
 			}
 		}
 
 		// Check for replace directives that can be removed
-		if strings.Contains(updated, "replace github.com/vxcontrol/langchaingo =>") {
+		if strings.Contains(updated, "replace github.com/jaysteelmind/langchaingo =>") {
 			replaceFiles = append(replaceFiles, modFile)
 			// Remove replace directive and its comment
 			updated = removeReplaceDirective(updated)
@@ -156,7 +156,7 @@ func removeReplaceDirective(content string) string {
 		}
 
 		// Skip the replace directive itself
-		if skipNext && strings.HasPrefix(strings.TrimSpace(line), "replace github.com/vxcontrol/langchaingo") {
+		if skipNext && strings.HasPrefix(strings.TrimSpace(line), "replace github.com/jaysteelmind/langchaingo") {
 			skipNext = false
 			continue
 		}

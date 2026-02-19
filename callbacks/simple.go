@@ -4,9 +4,9 @@ package callbacks
 import (
 	"context"
 
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/streaming"
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/streaming"
+	"github.com/jaysteelmind/langchaingo/schema"
 )
 
 type SimpleHandler struct{}

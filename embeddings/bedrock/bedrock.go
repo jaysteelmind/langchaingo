@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/vxcontrol/langchaingo/embeddings"
+	"github.com/jaysteelmind/langchaingo/embeddings"
 
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
 )

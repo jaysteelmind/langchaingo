@@ -1,7 +1,7 @@
 package bedrockknowledgebases
 
 import (
-	"github.com/vxcontrol/langchaingo/vectorstores"
+	"github.com/jaysteelmind/langchaingo/vectorstores"
 )
 
 func (kb *KnowledgeBase) getOptions(options ...vectorstores.Option) *vectorstores.Options {

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/vectorstores"
+	"github.com/jaysteelmind/langchaingo/vectorstores"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -6,7 +6,7 @@ import (
 	"io/fs"
 	"sync"
 
-	"github.com/vxcontrol/langchaingo/prompts/internal/loader"
+	"github.com/jaysteelmind/langchaingo/prompts/internal/loader"
 
 	"github.com/nikolalohinski/gonja"
 	"github.com/nikolalohinski/gonja/config"

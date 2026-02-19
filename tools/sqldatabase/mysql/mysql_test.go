@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/internal/testutil/testctr"
-	"github.com/vxcontrol/langchaingo/tools/sqldatabase"
-	_ "github.com/vxcontrol/langchaingo/tools/sqldatabase/mysql"
+	"github.com/jaysteelmind/langchaingo/internal/testutil/testctr"
+	"github.com/jaysteelmind/langchaingo/tools/sqldatabase"
+	_ "github.com/jaysteelmind/langchaingo/tools/sqldatabase/mysql"
 
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"

@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vxcontrol/langchaingo/llms/reasoning"
+	"github.com/jaysteelmind/langchaingo/llms/reasoning"
 )
 
 func TestToolCall(t *testing.T) {

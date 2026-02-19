@@ -1,8 +1,8 @@
-module github.com/vxcontrol/langchaingo/examples/sql-database-chain-example
+module github.com/jaysteelmind/langchaingo/examples/sql-database-chain-example
 
 go 1.24.1
 
-require github.com/vxcontrol/langchaingo v0.1.14-update.1
+require github.com/jaysteelmind/langchaingo v0.1.14-update.1
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect
@@ -35,4 +35,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

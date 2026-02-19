@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/vxcontrol/langchaingo/llms/maritaca/internal/maritacaclient"
+	"github.com/jaysteelmind/langchaingo/llms/maritaca/internal/maritacaclient"
 )
 
 type options struct {

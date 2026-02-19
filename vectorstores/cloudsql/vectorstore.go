@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vxcontrol/langchaingo/embeddings"
-	"github.com/vxcontrol/langchaingo/schema"
-	"github.com/vxcontrol/langchaingo/util/cloudsqlutil"
-	"github.com/vxcontrol/langchaingo/vectorstores"
+	"github.com/jaysteelmind/langchaingo/embeddings"
+	"github.com/jaysteelmind/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/util/cloudsqlutil"
+	"github.com/jaysteelmind/langchaingo/vectorstores"
 
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"

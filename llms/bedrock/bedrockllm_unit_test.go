@@ -5,10 +5,10 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/bedrock/internal/bedrockclient"
-	"github.com/vxcontrol/langchaingo/llms/streaming"
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/bedrock/internal/bedrockclient"
+	"github.com/jaysteelmind/langchaingo/llms/streaming"
+	"github.com/jaysteelmind/langchaingo/schema"
 
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
 )

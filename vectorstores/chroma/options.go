@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vxcontrol/langchaingo/embeddings"
+	"github.com/jaysteelmind/langchaingo/embeddings"
 
 	chromatypes "github.com/amikos-tech/chroma-go/types"
 )

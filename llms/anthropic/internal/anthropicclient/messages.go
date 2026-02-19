@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vxcontrol/langchaingo/llms/reasoning"
-	"github.com/vxcontrol/langchaingo/llms/streaming"
+	"github.com/jaysteelmind/langchaingo/llms/reasoning"
+	"github.com/jaysteelmind/langchaingo/llms/streaming"
 )
 
 const (

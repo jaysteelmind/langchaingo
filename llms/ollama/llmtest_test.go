@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/ollama/ollama/api"
-	"github.com/vxcontrol/langchaingo/testing/llmtest"
+	"github.com/jaysteelmind/langchaingo/testing/llmtest"
 )
 
 func checkIfModelExists(t *testing.T, model string, serverURL string) bool {

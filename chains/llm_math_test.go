@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/internal/httprr"
-	"github.com/vxcontrol/langchaingo/llms/openai"
+	"github.com/jaysteelmind/langchaingo/internal/httprr"
+	"github.com/jaysteelmind/langchaingo/llms/openai"
 
 	"github.com/stretchr/testify/require"
 )

@@ -6,10 +6,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/anthropic"
-	"github.com/vxcontrol/langchaingo/llms/openai"
-	"github.com/vxcontrol/langchaingo/llms/reasoning"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/anthropic"
+	"github.com/jaysteelmind/langchaingo/llms/openai"
+	"github.com/jaysteelmind/langchaingo/llms/reasoning"
 )
 
 func main() {

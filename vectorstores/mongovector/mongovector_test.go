@@ -19,11 +19,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vxcontrol/langchaingo/embeddings"
-	"github.com/vxcontrol/langchaingo/internal/httprr"
-	"github.com/vxcontrol/langchaingo/internal/testutil/testctr"
-	"github.com/vxcontrol/langchaingo/schema"
-	"github.com/vxcontrol/langchaingo/vectorstores"
+	"github.com/jaysteelmind/langchaingo/embeddings"
+	"github.com/jaysteelmind/langchaingo/internal/httprr"
+	"github.com/jaysteelmind/langchaingo/internal/testutil/testctr"
+	"github.com/jaysteelmind/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/vectorstores"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"

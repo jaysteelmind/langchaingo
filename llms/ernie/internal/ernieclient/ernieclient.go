@@ -13,8 +13,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vxcontrol/langchaingo/httputil"
-	"github.com/vxcontrol/langchaingo/llms/streaming"
+	"github.com/jaysteelmind/langchaingo/httputil"
+	"github.com/jaysteelmind/langchaingo/llms/streaming"
 )
 
 var (

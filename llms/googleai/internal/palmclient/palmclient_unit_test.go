@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -1,6 +1,6 @@
 package cloudflareclient
 
-import "github.com/vxcontrol/langchaingo/llms/streaming"
+import "github.com/jaysteelmind/langchaingo/llms/streaming"
 
 type GenerateContentRequest struct {
 	Messages []Message `json:"messages"`

@@ -3,7 +3,7 @@ package cybertron
 import (
 	"context"
 
-	"github.com/vxcontrol/langchaingo/embeddings"
+	"github.com/jaysteelmind/langchaingo/embeddings"
 
 	"github.com/nlpodyssey/cybertron/pkg/models/bert"
 	"github.com/nlpodyssey/cybertron/pkg/tasks/textencoding"

@@ -1,6 +1,6 @@
 package prompts
 
-import "github.com/vxcontrol/langchaingo/llms"
+import "github.com/jaysteelmind/langchaingo/llms"
 
 // ChatPromptTemplate is a prompt template for chat messages.
 type ChatPromptTemplate struct {

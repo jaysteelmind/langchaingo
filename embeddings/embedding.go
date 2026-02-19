@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vxcontrol/langchaingo/internal/sliceutil"
+	"github.com/jaysteelmind/langchaingo/internal/sliceutil"
 )
 
 // NewEmbedder creates a new Embedder from the given EmbedderClient, with

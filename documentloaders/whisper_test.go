@@ -33,7 +33,7 @@ func TestTranscription(t *testing.T) {
 	t.Run("Test from url", func(t *testing.T) {
 		t.Parallel()
 
-		audioURL := "https://raw.githubusercontent.com/vxcontrol/langchaingo/main-vxcontrol/documentloaders/testdata/sample.mp3"
+		audioURL := "https://raw.githubusercontent.com/jaysteelmind/langchaingo/main-vxcontrol/documentloaders/testdata/sample.mp3"
 
 		opts := []WhisperOpenAIOption{
 			WithAudioPath(audioURL),

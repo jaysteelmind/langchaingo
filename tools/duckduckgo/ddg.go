@@ -5,13 +5,13 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/vxcontrol/langchaingo/callbacks"
-	"github.com/vxcontrol/langchaingo/tools"
-	"github.com/vxcontrol/langchaingo/tools/duckduckgo/internal"
+	"github.com/jaysteelmind/langchaingo/callbacks"
+	"github.com/jaysteelmind/langchaingo/tools"
+	"github.com/jaysteelmind/langchaingo/tools/duckduckgo/internal"
 )
 
 // DefaultUserAgent defines a default value for user-agent header.
-const DefaultUserAgent = "github.com/vxcontrol/langchaingo/tools/duckduckgo"
+const DefaultUserAgent = "github.com/jaysteelmind/langchaingo/tools/duckduckgo"
 
 // Tool defines a tool implementation for the DuckDuckGo Search.
 type Tool struct {

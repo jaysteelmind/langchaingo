@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/reasoning"
-	"github.com/vxcontrol/langchaingo/llms/streaming"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/reasoning"
+	"github.com/jaysteelmind/langchaingo/llms/streaming"
 
 	"github.com/stretchr/testify/assert"
 )

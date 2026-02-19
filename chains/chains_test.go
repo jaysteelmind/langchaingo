@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/prompts"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/prompts"
 
 	"github.com/stretchr/testify/require"
 )

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/vxcontrol/langchaingo/llms/reasoning"
+	"github.com/jaysteelmind/langchaingo/llms/reasoning"
 )
 
 func (mc MessageContent) MarshalJSON() ([]byte, error) {

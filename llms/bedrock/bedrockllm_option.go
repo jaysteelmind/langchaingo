@@ -1,7 +1,7 @@
 package bedrock
 
 import (
-	"github.com/vxcontrol/langchaingo/callbacks"
+	"github.com/jaysteelmind/langchaingo/callbacks"
 
 	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
 )

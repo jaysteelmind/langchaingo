@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/vxcontrol/langchaingo/callbacks"
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/llms/reasoning"
-	"github.com/vxcontrol/langchaingo/llms/streaming"
+	"github.com/jaysteelmind/langchaingo/callbacks"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/llms/reasoning"
+	"github.com/jaysteelmind/langchaingo/llms/streaming"
 
 	"github.com/ollama/ollama/api"
 	"github.com/ollama/ollama/envconfig"

@@ -1,10 +1,10 @@
 package chains
 
 import (
-	"github.com/vxcontrol/langchaingo/llms"
-	"github.com/vxcontrol/langchaingo/outputparser"
-	"github.com/vxcontrol/langchaingo/prompts"
-	"github.com/vxcontrol/langchaingo/schema"
+	"github.com/jaysteelmind/langchaingo/llms"
+	"github.com/jaysteelmind/langchaingo/outputparser"
+	"github.com/jaysteelmind/langchaingo/prompts"
+	"github.com/jaysteelmind/langchaingo/schema"
 )
 
 //nolint:lll

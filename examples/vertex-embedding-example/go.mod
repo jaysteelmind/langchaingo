@@ -1,8 +1,8 @@
-module github.com/vxcontrol/langchaingo/examples/vertex-embedding-example
+module github.com/jaysteelmind/langchaingo/examples/vertex-embedding-example
 
 go 1.24.1
 
-require github.com/vxcontrol/langchaingo v0.1.14-update.1
+require github.com/jaysteelmind/langchaingo v0.1.14-update.1
 
 require (
 	cloud.google.com/go v0.121.0 // indirect
@@ -46,4 +46,4 @@ require (
 	google.golang.org/protobuf v1.36.6 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

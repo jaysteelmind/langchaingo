@@ -1,8 +1,8 @@
-module github.com/vxcontrol/langchaingo/examples/ernie-function-call-example
+module github.com/jaysteelmind/langchaingo/examples/ernie-function-call-example
 
 go 1.24.1
 
-require github.com/vxcontrol/langchaingo v0.1.14-update.1
+require github.com/jaysteelmind/langchaingo v0.1.14-update.1
 
 require (
 	github.com/dlclark/regexp2 v1.11.4 // indirect
@@ -10,4 +10,4 @@ require (
 	github.com/pkoukk/tiktoken-go v0.1.8 // indirect
 )
 
-replace github.com/vxcontrol/langchaingo => ../..
+replace github.com/jaysteelmind/langchaingo => ../..

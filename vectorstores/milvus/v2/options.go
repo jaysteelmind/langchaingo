@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/vxcontrol/langchaingo/embeddings"
+	"github.com/jaysteelmind/langchaingo/embeddings"
 
 	"github.com/milvus-io/milvus-sdk-go/v2/client"
 	oldentity "github.com/milvus-io/milvus-sdk-go/v2/entity"
